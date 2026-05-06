@@ -705,11 +705,12 @@ border-radius: 10px;
     }
 
     .hero-heading {
+        padding-top: 50px;
         font-size: 24px;
     }
 
         .hero-container {
-        padding: 8px;
+        padding: 10px;
     }
 
 }
@@ -717,7 +718,7 @@ border-radius: 10px;
 
 @media only screen and (max-width: 296px){
         .hero-container {
-        padding: 8px;
+        padding: 10px;
     }
 }
 
