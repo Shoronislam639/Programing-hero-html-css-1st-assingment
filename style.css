@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "poppins-thin", sans-serif;
+    font-style: normal;
+
+}
+
+
+
+
+
+#header{
+    /* width: 100%; */
+    background-color: #FFFFFF;
+
+}
+
+
+
+/* Global */
+.container{
+    width: 78.33%;
+    margin: 0 auto;
+}
+
+#hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    vertical-align: middle;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+#menu-icon img{
+    width: 48px;
+    height: 48px;
+}
+
+
+/* body section  */
+
+body{
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+
+.hero-container{
+    display: flex;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    padding: 100px;
+    align-items: end;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+
+.hero-heading{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.text-area *{
+   gap: 8px;
+    
+}
+
+.text-area {
+   padding-bottom:60px;
+    
+}
+
+.hero-p{
+    color: #4E4E4E;
+    line-height: 26px;
+    padding-bottom: 10px;
+    /* width: 496px; */
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+#hero-img img{
+    width: 500px;
+    padding-right: 20px;
+}
+
+.hero-price{
+    color: #FF136F;
+    font-size: 46px;
+    font-weight:bold;
+    
+    
+}
+
+
+#hero-btn{
+    padding: 10px 35px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    background: linear-gradient(#FF589B, #FF136F);
+}
+
+.ctg-h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#category{
+    margin-bottom: 20px;
+}
+
+#ctg-containder{
+    margin-bottom: 96px;
+}
+
+.box1{
+   display: flex;
+background-color: #FF9C35;
+width: 359px;
+height: 120px;
+
+justify-content: space-between;
+align-items: center;
+
+padding-right: 45px;
+padding-left: 45px;
+
+border-radius: 10px;
+}
+
+.box2{
+   display: flex;
+background-color: #FF136F;
+width: 359px;
+height: 120px;
+
+justify-content: space-between;
+align-items: center;
+
+padding-right: 45px;
+padding-left: 45px;
+
+border-radius: 10px;
+}
+
+.box3{
+   display: flex;
+background-color: #3F07F8;
+width: 359px;
+height: 120px;
+
+justify-content: space-between;
+align-items: center;
+
+padding-right: 45px;
+padding-left: 45px;
+
+border-radius: 10px;
+}
+
+#box h1 {
+    color: #FEEAE9;
+    font-weight: 500;
+}
+
+#category-box{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+#shoe-product{
+    padding: 24px;
+    border: #929292 solid 2px;
+    width: 360px;
+    text-align: center;
+    border-radius: 20px;
+
+    box-shadow: 0px 6px 20px rgba(146, 146, 146, 0.15);
+}
+
+#shoe-product *{
+    margin-bottom: 10px;
+}
+
+#card{
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.g-h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.g-p{
+    font-size: 16px;
+   line-height: 26px;
+   font-family: "Inter", sans-serif;
+}
+
+.g-price{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.g-button{
+    padding: 12px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+
+#ctg-containder2{
+    margin-bottom: 96px;
+}
+
+#ctg-containder1{
+    margin-bottom: 40px;
+}
+
+.subscription{
+    background-color: #FFF2F1;
+    padding: 146px 246px;
+    text-align: center;
+}
+
+.subscription h2{
+    font-size: 30px;
+}
+.subscription p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input{
+    width: 526px;
+    height: 73px;
+    border: 0;
+    border-radius: 10px 0px  0px  10px;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-form input[type="email"]{
+    padding-left: 30px;
+    font-size: 24px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+
+.subscribe-form button{
+    padding:  13px 50px;
+    font-size: 24px;
+    color: white;
+    border: 0;
+    border-radius: 0px 10px  10px  0px;
+    background: linear-gradient(#FF589B, #FF136F);
+}
+
+
+
+/* responsive design css  */
+
+/* Monitor Device (max-width:1440px) */
+@media screen and (max-width: 1440px){
+    .hero-heading {
+    font-size: 39px;
+    }
+    #hero-img img {
+    width: 478px;
+    padding-right: 0px;
+    
+}
+}
+
+/* Laptop Device (max-width:1200px) */
+@media screen and (max-width: 1200px){
+        #hero-img img {
+        width: 378px;
+    }
+        .hero-heading {
+        font-size: 34px;
+    }
+    .hero-p {
+    color: #4E4E4E;
+    line-height: 22px;
+    padding-bottom: 6px;
+    font-size: 13px;
+    }
+    .hero-price {
+    font-size: 30px;
+}
+
+#hero-btn {
+    padding: 8px 24px;
+    font-size: 14px;
+}
+
+.hero-container {
+    padding: 70px;
+    gap: 14px;
+}
+
+/* category-shoe */
+
+#card{
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 90%;
+}
+
+}
+
+/* Tablet Device (max-width: 992px) */
+@media screen and (max-width: 992px){
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    padding: 70px;
+    gap: 14px;
+}
+.text-area {
+    padding-bottom: 10px;
+}
+ #hero-img {
+    
+     display: flex;
+        justify-content: center; 
+        width: 100%; 
+}
+    #hero-img img {
+        width: 350px;
+    }
+ 
+/* catagory section  */
+
+    #category-box{
+        flex-direction: column;
+    }
+    #box{
+        width: 100%;
+    }
+
+
+
+    /* shoe catagory */
+    #card{
+    gap: 24px;
+   flex-direction: column;
+    justify-content: space-between;
+}
+
+#shoe-product {
+    width: 100%;
+}
+
+.g-h1 {
+    font-size: 36px;
+}
+
+.g-p {
+    font-size: 20px;
+}
+
+
+
+/* subcription section  */
+
+
+.subscribe-form input[type="email"]{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-right: 88px;
+   
+}
+
+.subscribe-form button {
+    padding: 13px 50px;
+    font-size: 18px;
+}
+
+}
+
+/* Mobile Device (max-width: 640px) */
+@media screen and (max-width: 640px){
+    #hero-img img {
+        width: 282px;
+    }
+
+    .hero-p {
+    line-height: 19px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    }
+
+
+    .hero-heading {
+    font-size: 28px;
+    }
+
+
+
+/* catagory font section and cetagory section  */
+
+.ctg-h2 {
+    font-size: 28px !important;
+   
+}
+
+.box3 img{
+    width: 120px;
+}
+
+
+/* shoe catagory section  */
+
+
+.g-h1 {
+    font-size: 26px;
+}
+
+.g-p {
+    font-size: 18px;
+}
+
+
+
+/* subcription section  */
+
+.subscribe-form input[type="email"]{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-right: 88px;
+   
+}
+
+.subscribe-form button {
+    padding: 13px 50px;
+    font-size: 18px;
+}
+
+
+.subscription {
+    background-color: #FFF2F1;
+    padding: 146px 112px;
+    text-align: center;
+}
+
+
+
+.subscribe-form{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.subscribe-form input[type="email"] {
+    font-size: 16px;
+}
+
+
+.subscribe-form input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.subscribe-form button{
+    border-radius: 10px;
+    height: 60px;
+}
+
+
+}
+
+
+/* Mobile Device (max-width: 320px) */
+@media screen and (max-width: 320px){
+        .hero-heading {
+            padding-top: 30px;
+        font-size: 16px;
+        }
+
+
+            .hero-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 8px;}
+
+            .hero-p {
+        line-height: 16px;
+        padding-bottom: 6px;
+        font-size: 11px;
+    }
+
+
+    #hero-img img {
+        width: 230px;
+    }
+
+
+
+
+
+    /* catagory font section and cetagory section  */
+
+.ctg-h2 {
+    font-size: 28px !important;
+   
+}
+.box1 {
+   
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 17px;
+}
+.box2 {
+   
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 17px;
+}
+.box3 {
+   
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 17px;
+}
+
+
+.box1 h1{
+    font-size: 25px;
+}
+.box2 h1{
+    font-size: 25px;
+}
+.box3 h1{
+    font-size: 25px;
+}
+
+.box3 img{
+    width: 100px;
+}
+
+
+
+
+/* shoe catagory section  */
+
+.g-h1 {
+    font-size: 18px;
+}
+
+    .g-p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+       #shoe-product img {
+        width: 230px;
+    }
+
+
+
+/* subscription section  */
+
+.subscription {
+    background-color: #FFF2F1;
+    padding: 100px 10px;
+    text-align: center;
+}
+
+.subscription h2 {
+    font-size: 25px;
+}
+
+.subscription p {
+    font-size: 16px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    /* catagory section  */
+
+    #category-box{
+        flex-direction: column;
+    }
+    #box{
+        width: 100%;
+    }
+
+
+
+    /* shoe catagory */
+    #card{
+    gap: 24px;
+   flex-direction: column;
+    justify-content: space-between;
+}
+
+#shoe-product {
+    width: 100%;
+}
+
+.g-h1 {
+    font-size: 36px;
+}
+
+.g-p {
+    font-size: 20px;
+}
+
+
+
+/* subcription section  */
+
+
+.subscribe-form input[type="email"]{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-right: 88px;
+   
+}
+
+.subscribe-form button {
+    padding: 13px 50px;
+    font-size: 18px;
+}
+
+
+
+
+
+}
+
+
+/* lanfscape mobile phone  */
+
+@media only screen and (max-width: 768px) {
+    .subscription {
+    background-color: #FFF2F1;
+    padding: 100px 18px;
+    text-align: center;
+}
+}
+
+
+
+/* Some mobile resulation  */
+@media only screen and (max-width: 540px){
+    
+
+    .subscription {
+    background-color: #FFF2F1;
+    padding: 100px 18px;
+    text-align: center;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
