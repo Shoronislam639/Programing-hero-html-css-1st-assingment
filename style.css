@@ -698,11 +698,24 @@ border-radius: 10px;
     text-align: center;
 }
 
+.hero-container {
+    
+        padding: 33px;
+        
+    }
 
-
+    .hero-heading {
+        font-size: 24px;
+    }
 
 }
 
+
+@media only screen and (max-width: 240px){
+        .hero-container {
+        padding: 5px;
+    }
+}
 
 
 
