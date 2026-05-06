@@ -708,12 +708,16 @@ border-radius: 10px;
         font-size: 24px;
     }
 
+        .hero-container {
+        padding: 8px;
+    }
+
 }
 
 
-@media only screen and (max-width: 240px){
+@media only screen and (max-width: 296px){
         .hero-container {
-        padding: 5px;
+        padding: 8px;
     }
 }
 
